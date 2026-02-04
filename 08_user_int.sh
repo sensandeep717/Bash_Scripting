@@ -8,3 +8,4 @@ echo "My name is $name"
 
 read -p "Enter your name " name
 echo " MY name is $name"
+#s-silent input, p- prompt, n- number of charecter allowed in input, r-raw input(prevent backslash/escaping)
