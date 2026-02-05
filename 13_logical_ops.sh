@@ -4,7 +4,8 @@
 read -p "Enter your Age " age
 read -p "Enter your country " country
 
-if [[ $age -ge 18 ]] && [[ $country == "India" ]]
+if [[ $age -ge 18 ]] && [[ $country == "India" ]] 
+#or we can use [[ $age -ge 18 && $counrty == 'India' ]] 
 then
 	echo " You can vote"
 else
